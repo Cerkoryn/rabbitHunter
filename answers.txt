@@ -1,0 +1,8 @@
+Da Tung
+Aurora Bridge,bridge,roof,George Washington Bridge,George Washington Memorial Bridge
+charm,charm person,cure wounds,open sesame
+Holowan Labs
+Malindi
+Saruman your staff is broken,your staff is broken
+13,9,t,n
+42,f,ft
