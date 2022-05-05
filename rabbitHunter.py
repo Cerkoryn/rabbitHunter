@@ -18,17 +18,18 @@ Looking for hidden web pages:
 1) https://drive.protonmail.com/urls/<AnswerGoesHere>
 2) https://deadrabbits.io/<AnswerGoesHere>
 3) https://deadrabbits.io/VLk_SYS_Check/<AnswerGoesHere>
-4) https://zombiecircusgoats.com/<AnswerGoesHere
+4) https://zombiecircusgoats.com/<AnswerGoesHere>
 
 Library of Babel:
-5) Manually check many pages quickly.
-6) I have a specific word or string I'd like to search for.
+5) I have a specific word or string I'd like to search for with a set of given hex names/numbers.
+6) Look for any English words in a set of Hex names/numbers.
+7) Manually check many pages quickly with a set of given hex names/numbers.
 
 Other:
-7) Output a list of emails in the format <AnswerGoesHere>@protonmail.com;
-8) I just want a to make a new wordlist.
+8) Output a list of emails in the format <AnswerGoesHere>@protonmail.com;
+9) I just want a to make a new wordlist.
 
-9) Exit.
+0) Exit.
 """
 
 if __name__ == "__main__":
@@ -45,33 +46,60 @@ if __name__ == "__main__":
                 print("That's not a valid option.")
 
         if choice == 1:
-            print("Not implemented yet.")
+            os.system("cls")
+            searchProtonDrive()
+            print("Goodbye.")
+            exit()
 
         elif choice == 2:
-            print("Not implemented yet.")
+            os.system("cls")
+            searchDeadRabbitsIO()
+            print("Goodbye.")
+            exit()
 
         elif choice == 3:
-            print("Not implemented yet.")
+            os.system("cls")
+            searchVLkSysCheck()
+            print("Goodbye.")
+            exit()
 
         elif choice == 4:
-            print("Not implemented yet.")
+            os.system("cls")
+            searchZombieCircusGoats()
+            print("Goodbye.")
+            exit()
 
         elif choice == 5:
-            print("Not implemented yet.")
+            os.system("cls")
+            babelSearchWord()
+            print("Goodbye.")
+            exit()
 
         elif choice == 6:
-            print("Not implemented yet.")
+            os.system("cls")
+            babelSearchEnglish()
+            print("Goodbye.")
+            exit()
 
         elif choice == 7:
-            print("Not implemented yet.")
+            os.system("cls")
+            babelSearchManual()
+            print("Goodbye.")
+            exit()
 
         elif choice == 8:
+            os.system("cls")
+            genEmails()
+            print("Goodbye.")
+            exit()
+
+        elif choice == 9:
             os.system("cls")
             GenWordlist()
             print("Goodbye.")
             exit()
 
-        elif choice == 9:
+        elif choice == 0:
             print("Goodbye.")
             exit()
 
