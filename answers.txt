@@ -4,5 +4,5 @@ charm,charm person,cure wounds,open sesame
 Holowan Labs
 Malindi
 Saruman your staff is broken,your staff is broken
-13,9,t,n
-42,f,ft
+13,9,6
+42,6,9
